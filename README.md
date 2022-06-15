@@ -1,12 +1,12 @@
-# Pasos para ejercutar la aplicacion (Windows):
+# Pasos para ejecutar la aplicacion (Windows):
 
-# Abrir ambiente de desarrollo env
-.\env\Scripts\Activate
+# Instalar dependencias
+pip install -r requirements.txt
 
 # Ejecutar archivo principal de la aplicacion
 python mainApp.py
 
 # Ejecutar prueba unitaria
-# (Tener en cuenta que la prueba se diseño para comprobar el resultado diligenciando primero "colombia" y despues "turkey")
+# (Tener en cuenta que la prueba se diseño para comprobar el resultado diligenciando primero "colombia" despues "turkey" y despues "salir")
 python test.py
 

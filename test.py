@@ -5,7 +5,7 @@ import unittest
 class TestDataFrame(unittest.TestCase):
     def test_1(self):
         df1 = principal(True)
-        if df1 == "No hay tabla final para mostrar":
+        if type(df1) is str:
             self.assertEqual(df1, "No hay tabla final para mostrar")
         else:
             df1.drop("Time", axis=1, inplace=True)
